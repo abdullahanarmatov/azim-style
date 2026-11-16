@@ -169,6 +169,11 @@ class _CategoryBar extends ConsumerWidget {
 
   Widget _chip(String label, bool on, VoidCallback onTap) => Padding(
         padding: const EdgeInsets.only(right: 8),
-        child: ChoiceChip(label: Text(label), selected: on, onSelected: (_) => onTap()),
+        child: ChoiceChip(
+          label: Text(label),
+          showCheckmark: false,
+          selected: on,
+          onSelected: (_) => onTap(),
+        ),
       );
 }

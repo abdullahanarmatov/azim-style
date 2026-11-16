@@ -133,7 +133,7 @@ class _ProductBodyState extends ConsumerState<_ProductBody> {
                             'Подойдёт ли мне и с чем носить?',
                       },
                     ).toString()),
-                    child: const Text('Спросить стилиста'),
+                    child: const Text('Спросить'),
                   ),
                 ),
                 const SizedBox(width: 12),
